@@ -662,7 +662,7 @@ body {
   background-color: #333;
   padding: 10rem 0;
   font-size: 1.4rem;
-  color: #414140; }
+  color: #ff8400; }
   @media only screen and (max-width: 56.25em) {
     .footer {
       padding: 8rem 0; } }
@@ -686,11 +686,12 @@ body {
   .footer__list {
     list-style: none; }
   .footer__item {
-    display: inline-block; }
+    display: inline-block;
+    color: #ff8400; }
     .footer__item:not(:last-child) {
       margin-right: 1.5rem; }
   .footer__link:link, .footer__link:visited {
-    color: #414140;
+    color: #ff8400;
     background-color: #333;
     text-decoration: none;
     text-transform: uppercase;
